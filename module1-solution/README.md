@@ -1,0 +1,1 @@
+This is my solution to the assignment 1 of "Single Page Web Applications with AngularJS" from Coursera.
