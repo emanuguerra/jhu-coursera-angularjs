@@ -12,7 +12,7 @@
         console.log('Controller loaded');
 
         function empty(value) {
-            return value;
+            return value.trim() !== "";
         }
 
         function lessThanFourItems() {
