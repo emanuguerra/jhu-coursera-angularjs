@@ -38,10 +38,12 @@
 
         function initToBuyList() {
             return [{name: "cookies", quantity: 10},
-                {name: "spaghettis", quantity: 8},
-                {name: "milk bottles", quantity: 1},
-                {name: "ice-cream boxes", quantity: 4},
-                {name: "lemons", quantity: 6}];
+                {name: "extra long spaghetti packets", quantity: 8},
+                {name: "skimmed milk bottles", quantity: 1},
+                {name: "vanilla pecan ice-cream boxes", quantity: 4},
+                {name: "green lemons", quantity: 6},
+                {name: "soda bottles", quantity: 12},
+                {name: "agave syrup bottles", quantity: 2}];
         }
 
         service.getToBuyItems = function () {
