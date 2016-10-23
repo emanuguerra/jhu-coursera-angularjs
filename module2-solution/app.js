@@ -39,7 +39,7 @@
         function initToBuyList() {
             return [{name: "cookies", quantity: 10},
                 {name: "extra long spaghetti packets", quantity: 8},
-                {name: "skimmed milk bottles", quantity: 1},
+                {name: "skimmed milk bottles", quantity: 3},
                 {name: "vanilla pecan ice-cream boxes", quantity: 4},
                 {name: "green lemons", quantity: 6},
                 {name: "soda bottles", quantity: 12},
