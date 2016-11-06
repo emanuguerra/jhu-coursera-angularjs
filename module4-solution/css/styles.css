@@ -15,7 +15,8 @@ div.tabs {
   font-weight: bold;
 }
 
-a {
-  font-size: medium;
+tr[ui-sref]:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  border: solid black 1px;
 }
-
