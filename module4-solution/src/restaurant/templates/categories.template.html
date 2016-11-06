@@ -1,0 +1,21 @@
+<a ui-sref="home">Return home</a>
+<h4>Choose a category in the table below</h4>
+<div class="container">
+    <div class="row col-md-6">
+        <table ng-if="mainList.items.length" class="table table-striped">
+            <thead>
+            <th> Id</th>
+            <th> Short name</th>
+            <th> Name</th>
+            <th></th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="item in mainList.items" ui-sref="items({categoryShortName: item.short_name})">
+                <td> {{item.id}}</td>
+                <td> {{item.short_name}}</td>
+                <td> {{item.name}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp'>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>The Golden Dragon - Chinese restaurant</title>
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/restaurant/data/data.module.js"></script>
+    <script src="src/restaurant/menuapp.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- 'ShoppingList' module artifacts -->
+    <script src="src/restaurant/categories.component.js"></script>
+    <script src="src/restaurant/categories.controller.js"></script>
+    <script src="src/restaurant/items.component.js"></script>
+    <script src="src/restaurant/items.controller.js"></script>
+    <script src="src/restaurant/data/menudata.service.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="list-inline">
+        <div class="col-lg-3">
+            <img src="images/golden-dragon.jpg" alt="Golden Dragon">
+        </div>
+        <div class="col-lg-5">
+            <h3>Welcome to the Golden Dragon</h3>
+            <ui-view></ui-view>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
